@@ -1,0 +1,29 @@
+* {
+    box-sizing:  border-box;
+}
+
+
+h1 {
+  text-align: center;
+  color: #FFFFFF
+}
+h2 {
+  text-align: center;
+}
+
+.lesson {
+  font-family: Arial;
+  background: #120e84;
+  color: #C0C0C0;
+  border-radius: 30px;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.keyconcept{
+  text-indent: 40px;
+  background: #00003D;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
