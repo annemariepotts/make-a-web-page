@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Annemarie Potts</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!DOCTYPE HTML>
+<html>
+<head>
+  <title>Udacity Nanodegree</title>
+</head>
+
+<body>
+  <div class="lesson">
+  <h1><u>Lesson One: The Basics of the Web</u></h1>
+    <div class="keyconcept">
+    <h2>World Wide Web</h2>
+      <p>
+        The world wide web is a collection of HTML (Hyper Text Markup Language) documents where hyperlinks connect documents. HTML is how you link various content to your webpage, including images and video. 
+    <br>
+    <br>
+        Browsers, like Firefox and Chrome, make requests for webpages and documents via the internet to servers using HTTP. The servers, which are computers optimized for hosting files, respond with a file that the browser then displays.
+      </p>
+    </div>    
+    <div class="keyconcept">
+    <h2>Hyper Text Markup Language</h2>
+      <p>
+        In HTML, there are two primary categories - text content and mark up. Text content is what the visitor to the webpage will see, while mark up is the arrangement of that content. Mark up includes references to other documents. These documents can include images and videos. For instance, the Udacity classroom webpage has a <em>reference</em> to youtube video in the middle.
+    <ul>
+      <li>Mark Up
+        <ul>
+          <li>tag = &lt;tag name&gt;</li>
+          <li>&lt;name&gt; content &lt;/name&gt; ---&gt; called an element</li>
+          <li>bold &lt;<b>BOLD</b>&gt;</li>
+          <li>italic &lt;<em>EMPHASIS</em>&gt; </li>
+          <li>forgot &lt;/endtag&gt;? Tag effects everything after opening tag</li>
+        </ul>
+       </li>
+      <li>HTML Attributes
+        <ul>
+          <li>atrributes = ATTR</li>
+          <li>&lt;tag ATTR="value"&gt; contents &lt;/tag&gt;</li>
+          <li>anchor tag &lt;a&gt; = to make a link</li>
+          <li>&lt;a href="www.reddit.com"&gt; <a href="www.reddit.com"> derp </a> &lt;/a&gt;
+            <ul>
+              <li>derp would be the link!</li>
+            </ul>
+          </li>
+          <li>image tag &lt;img src="url" alt="text"&gt;
+            <ul>
+              <li>alt="text" is what is displayed if the image doesn't load - common courtesy</li>
+            </ul>
+          </li>
+          <li>VOID TAG - no content = no closing tag</li>
+        </ul>
+        </li>
+      <li>Whitespace
+        <ul>
+          <li>&lt;br&gt; VOID TAG - creates new line (inline - just creates a new line to work on/use as separation)</li>
+          <li>&lt;p&gt; &lt;/p&gt; - creates some separation (makes an invisible box around that text)</li>
+          <li>why have both? &lt;p&gt; &lt;/p&gt; can be used to create height</li>
+          <li>inline vs block</li>
+        </ul>
+      </li>
+      <li>Span/div - to contain content
+        <ul>
+          <li>span - inline &lt;span class="foo"&gt; text &lt;/span&gt;</li>
+          <li>div - block &lt;div class="bar"&gt; text &lt;/div&gt;
+            <ul>
+              <li>will create a box around text, a separation like &lt;p&gt; &lt;/p&gt; does</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>HTML Document
+        <ul style="list-style-type:none">
+          <li>&lt;DOCTYPE HTML&gt; <em> doctype</em></li>
+          <li>&lt;html&gt;</li>
+          <li>&lt;head&gt; <em> place to put metadata, css, java</em>
+            <ul style="list-style-type:none">
+              <li>&lt;title&gt; Title of the webpage&lt;/title&gt;</li>
+            </ul>
+          </li>
+          <li>&lt;/head&gt;</li>
+          <li>&lt;body&gt;</li>
+          <li>&lt;b&gt;content&lt;/b&gt;</li>
+          <li>&lt;/body&gt;</li>
+          <li>&lt;/html&gt;</li>
+        </ul>    
+    </li>
+    </ul>
+    </div>
+    <div class="keyconcept">
+  <h2> How to Think About A Website </h2>
+      <p>
+        Websites should be thought of like houses. The structure and walls of your house is the HTML. The decorations, carpeting, and paint is the CSS. Your interactive and changeable features, like the garage door opener, is Java. Just like in how families have rules for how their house functions, there are rules for the behavior of websites.
+      </p>
+    </div>
+    <div class="keyconcept">
+  <h2> Elements of Websites </h2>
+      <p>
+        Elements in HTML are in a tree like structure, where you will have elements inside of other elements inside of other elements. This ever branching structure allows for complexity inside of a hierarchical structure that can be fairly easily read using the opening and closing tags of the elements.
+      </p>
+    </div>
+    <div class="keyconcept">
+  <h2> Languages of Webpages</h2>
+      <p>
+        HTML and CSS are both languages. HTML controls the structure of a webpage, functioning as syntax and rules. The basic word of HTML is tag, &lt; &gt;, which the browser uses to create the elements in your tree, also called the "DOM", Document Object Model. 
+      </p>
+      <p>
+        CSS controls the style and looks of a page. Using CSS, programmers can change how HTML elements look on the page. An HTML document uses a special section to define the CSS for the page, making it easier for the programmer in that you don't have to duplicate and replicate the same style setting for each individual block or element if they are similar. CSS automates the style for the programmer, after the initial set up and definitions. 
+      </p>
+    </div>
+    <div class="keyconcept">
+   <h2> The Internet is Made of Boxes </h2>
+      <p>
+        Everything on a webpage is a box, even things that look like circles or other shapes to the viewer! Why? Boxes allow for easy repositioning depending on browser size and user experience. Most webpages will have boxes inside of other boxes with the larger boxes being key features like the header, the middle, and featured hyperlinks to other content.
+      </p>
+    </div>
+    <div class="keyconcept">
+   <h2> Why is Repetition a Bad Thing? </h2>
+      <p>
+        Although perfect practice makes perfect, in programming, repetition creates more work, and opportunities for validation errors, in the long run. Instead of having to style each individual paragraph or thought in HTML, CSS allows the programmer the freedom to style many like objects at the same time. In case of future design change for the website, the programmer who uses CSS will only need to make changes to the styling and decorations instead of the structure and content of the site. These style changes will also impact the entire document simultaniously, rather than the programmer needing to go element by element to make style changes. 
+        <br>
+        <br>
+        Repetition increases the chances of careless errors. By using CSS to style websites, programmers can make drastic changes to the looks of the website more simply and without jeopardizing the structure.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
+
+</body>
+
+</html>
